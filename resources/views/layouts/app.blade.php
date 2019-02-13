@@ -17,10 +17,6 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
-
-    {{-- Icones do Font Awesome --}}
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -62,25 +58,18 @@
 
     <div id="app">
 
-
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel justify-content-center" style="background: #1f1f1f; font-size: 14px; color:white;">
-
             <b>API PARA CONSULTA DE PRODUTOS - VERSÃO 1</b>
-
         </nav>
-
 
         <main class="py-4" id="corpo">
             @yield('content')
         </main>
 
-
     </div>
 
     <footer class="footer" style="background-color:#1f1f1f;">
-
             <span style="font-size: 14px; float:right; color:white; margin-right:2%;">Processo Seletivo 2019-01. Desenvolvido por Carlos Eduardo Binoti de Castro</span>
-
     </footer>
 
 </body>
