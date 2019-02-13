@@ -72,6 +72,8 @@ class ProdutosController extends Controller
 
     function distancia($lat1, $lon1, $lat2, $lon2) {
 
+        // função pronta para calculo de distancias entre dois pontos
+
         $lat1 = deg2rad($lat1);
         $lat2 = deg2rad($lat2);
         $lon1 = deg2rad($lon1);
