@@ -1,10 +1,10 @@
 
-Olá, 
+Ola,
 
- Para utilizar o projeto segue algumas informações.
+ Para utilizar o projeto segue algumas informacoes.
 
 	1 - realizar o composer update
-	
+
 
 	2 - .env:
 		DB_CONNECTION=sqlite
@@ -14,19 +14,7 @@ Olá,
 		DB_PASSWORD=null
 
 
-
-	3 - config/database.php:
-	
-		'connections' => [
-
-        		'sqlite' => [
-            			'driver' => 'sqlite',
-            			'database' => env('DB_DATABASE', database_path('processoseletivo.sqlite')),
-            			'prefix' => '',
-            			'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
-        		],
-		],
-
+    3 - gerar a key.
 
 
  Para realizar os testes basta executar esse comando na pasta do projeto:
